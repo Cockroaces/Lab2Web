@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №2 Атаманчук В.В.</title>
+</head>
+<body>
+<div class = "ex1">
+    <h2>Перевірка високосного року</h2>
+    <p>Введіть рік (від 1 до 9999): <input type="number" id="year"></p>
+    <button onclick="checkLeapYear()">Перевірити</button>
+    <script src = "Exercise1.js"></script>
+</div>
+<div class = "ex2">
+    <h2>Кількість минулих годин за градусами</h2>
+    <p>Введіть кількість градусів (від 0 до 360): <input type="number" id="degrees"></p>
+    <button onclick="calculateHours()">Розрахувати</button>
+    <script src = "Exercise2.js"></script>
+</div>
+<div class = "ex3">
+    <h2>Генератор випадкової стрічки</h2>
+    <p>Введіть довжину стрічки: <input type="number" id="length" min="1"></p>
+    <button onclick="generateString()">Згенерувати</button>
+    <p id="randomString"></p>
+    <script src = "Exercise3.js"></script>
+</div>
+<div class="ex4">
+    <h2>Функція substring</h2>
+    <p>Введіть рядок: <input type="text" id="inputString"></p>
+    <p>Введіть число n: <input type="number" id="n"></p>
+    <button onclick="processInput()">Обробити</button>
+    <p id="output"></p>
+    <script src = "Exercise4.js"></script>
+</div>
+<div class="ex5">
+    <h2>Обробка файлів</h2>
+    <input type="file" onchange="handleFileSelect(event)">
+    <div id="randomLine"></div>
+    <button onclick="saveToFile()">Зберегти в файл</button>
+    <script src="Exercise5.js"></script>
+</div>
+</body>
+</html>
